@@ -1,0 +1,145 @@
+/*General*/
+body{
+    background-color: #f4f4f4;
+    color:#333;
+    font-family: Arial, sans-serif;
+    margin:0;
+    padding:0;
+}
+
+/*Header*/
+header{
+    background-color: #004a99; 
+    color: white; 
+    padding: 20px 40px; 
+    text-align: center;
+}
+
+header h1{
+    margin:0;
+    font-size: 2.5em;
+}
+
+header p {
+    margin: 5px 0 0 0;
+    font-style: italic;
+}
+
+/*Barra navegación*/
+nav {
+    background-color: #333;
+    padding: 10px 40px;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+nav li{
+    display: inline-block;
+    margin-right: 20px;
+}
+nav li.li-contacto{
+    display: inline-block;
+}
+/*nav a.index{
+    color: #00aaff;
+    text-decoration: none; 
+    font-weight: bold; 
+    font-size: 1.1em;
+}
+nav a.sobre{
+    color: white; 
+    text-decoration: none; 
+    font-weight: bold; 
+    font-size: 1.1em;
+}
+nav a.contacto{
+     color: white; 
+    text-decoration: none; 
+    font-weight: bold; 
+    font-size: 1.1em;
+}*/
+nav a {
+     color: white; 
+    text-decoration: none; 
+    font-weight: bold; 
+    font-size: 1.1em;
+}
+/*color para el boton de navegacion de la pagina donde estemos*/
+nav a.activo {
+    color: #00aaff;
+}
+main{
+    padding: 20px 40px; 
+    min-height: 60vh;
+}
+#bienvenida{
+    background-color: white; 
+    padding: 20px; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+h2{
+    color: #004a99; 
+    border-bottom: 2px solid #004a99; 
+    padding-bottom: 5px;
+}
+#primerparrafo{
+    line-height: 1.6; 
+    font-size: 1.1em;
+}
+#segundoparrafo{
+    line-height: 1.6;
+}
+#proyectos-destacados{
+    margin-top: 30px;
+            
+}
+section h3{
+    color: #333;
+}
+section div {
+    background-color: #eee;
+    border: 1px dashed #ccc;
+    padding: 40px;
+    text-align: center;
+    color: #777;
+}
+
+/*Footer*/
+footer {
+    background-color: #222;
+    color: #aaa;
+    padding: 20px 40px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/*primer parrafo del footer*/
+#p1-footer {
+    margin: 0;
+}
+
+/*segundo parrafo del footer*/
+#p2-footer {
+    margin: 5px 0 0 0;
+    font-size: 0.9em;
+}
+/*estilos sobre.html*/
+.caja-contenido {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+#p-line{
+    line-height: 1.6;
+}
+.lista-habilidades {
+            list-style: square;
+            padding-left: 20px;
+}
+        
