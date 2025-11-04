@@ -1,0 +1,205 @@
+$color-primario:#23967f;
+$color-terciario:#7daf9c;
+$color-texto:#23110f;
+$color-secundario:#ffffff;
+$color-footer:#e0e0e0;
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&display=swap');
+
+/*Cambiar fuentes*/
+body{
+    font-family: 'Open Sans';
+
+}
+
+h1,h2,h3{
+    font-family: 'Oswald';
+}
+
+
+
+
+/*General*/
+body{
+    background-color:$color-primario;
+    color:#333;
+    margin:0;
+    padding:0;
+}
+
+/*Header*/
+header{
+    background-color:$color-primario; 
+    color:$color-texto; 
+    padding: 20px 40px; 
+    text-align: center;
+}
+
+header h1{
+    margin:0;
+    font-size: 2.5em;
+}
+
+header p {
+    margin: 5px 0 0 0;
+    font-style: italic;
+}
+
+/*Barra navegación*/
+nav {
+    background-color:$color-primario;
+    padding: 10px 40px;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav li{
+    display: inline-block;
+    margin-right: 20px;
+}
+nav li.li-contacto{
+    display: inline-block;
+}
+
+nav a {
+    text-decoration: none; /* sin subrayado */
+    color:$color-texto;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+/*color para el boton de navegacion de la pagina donde estemos*/
+nav a.activo {
+    color:$color-terciario ;
+}
+nav a:hover {
+    color:$color-terciario; /*color al pasar el raton*/
+}
+/*Estilos main*/
+main{
+    padding: 20px 40px; 
+    min-height: 60vh;
+}
+#bienvenida,.caja-contenido{
+    background-color: $color-secundario; 
+    padding: 20px; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+h2{
+    color:$color-texto; 
+    
+    padding-bottom: 5px;
+}
+#primerparrafo{
+    line-height: 1.6; 
+    font-size: 1.1em;
+}
+#segundoparrafo{
+    line-height: 1.6;
+}
+#proyectos-destacados{
+    margin-top: 30px;
+            
+}
+#proyectos-destacados h3{
+    color:$color-texto;
+}
+#proyectos-destacados div {
+    background-color: $color-secundario;
+   
+    padding: 40px;
+    text-align: center;
+    color: $color-texto;
+}
+
+
+/*estilos sobre.html*/
+.caja-contenido {
+    background-color: $color-secundario;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+#p-line{
+    line-height: 1.6;
+}
+.lista-habilidades {
+            list-style: square;
+            padding-left: 20px;
+}
+.lista-habilidades li {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+/*estilos formulario*/
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input,textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+button.enviar {
+    background-color:$color-secundario; 
+    color:$color-primario;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button.enviar:hover {
+    background-color:$color-terciario; 
+}
+
+
+
+
+/*Footer*/
+footer {
+    background-color:$color-footer;
+    color:$color-texto;
+    padding: 20px 40px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/*primer parrafo del footer*/
+#p1-footer {
+    margin: 0;
+}
+
+/*primer parrafo del footer de sobre.html (es diferente)*/
+#p1-footersobre{
+    margin:0;
+    line-height:1.6;
+}
+
+/*segundo parrafo del footer*/
+#p2-footer {
+    margin: 5px 0 0 0;
+    font-size: 0.9em;
+}
+
+        
