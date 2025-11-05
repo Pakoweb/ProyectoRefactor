@@ -13,7 +13,7 @@ h1, h2, h3 {
 /*General*/
 body {
   background-color: #23967f;
-  color: #333;
+  color: #23110f;
   margin: 0;
   padding: 0;
 }
@@ -21,7 +21,7 @@ body {
 /*Header*/
 header {
   background-color: #23967f;
-  color: #23110f;
+  color: #ffffff;
   padding: 20px 40px;
   text-align: center;
 }

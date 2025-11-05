@@ -23,7 +23,7 @@ h1,h2,h3{
 /*General*/
 body{
     background-color:$color-primario;
-    color:#333;
+    color:$color-texto;
     margin:0;
     padding:0;
 }
@@ -31,7 +31,7 @@ body{
 /*Header*/
 header{
     background-color:$color-primario; 
-    color:$color-texto; 
+    color:$color-secundario; 
     padding: 20px 40px; 
     text-align: center;
 }
