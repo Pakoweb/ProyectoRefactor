@@ -125,4 +125,3 @@ Este proyecto es parte de un ejercicio académico del módulo DIW.
 
 ---
 
-⭐ Si este proyecto te ha resultado útil, ¡dale una estrella en GitHub!
